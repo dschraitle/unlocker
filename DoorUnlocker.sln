@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoorUnlocker", "DoorUnlocker\DoorUnlocker.vcproj", "{AA81AC4E-C8FC-4F26-A0F8-F3EE1D9D1EEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA81AC4E-C8FC-4F26-A0F8-F3EE1D9D1EEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA81AC4E-C8FC-4F26-A0F8-F3EE1D9D1EEA}.Debug|Win32.Build.0 = Debug|Win32
+		{AA81AC4E-C8FC-4F26-A0F8-F3EE1D9D1EEA}.Release|Win32.ActiveCfg = Release|Win32
+		{AA81AC4E-C8FC-4F26-A0F8-F3EE1D9D1EEA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

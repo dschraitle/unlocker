@@ -1,0 +1,19 @@
+blue tag: 			1c00efed47
+credit card: 		1a004131c6
+badge:				1a008cf0dc
+cd rom:				010828c5ee
+white sheet:		1c00d69072
+bio-implant:		04118d59dd
+watch:				1a00c80123
+
+white disk: 		1000be9dfa
+white big disk:		15007e8efc
+white sticky disk:	1100a0a5f4
+
+clear small:		1e0005916e
+clear big:			1d00ce7e71
+clear sticky:		1d0032269d
+
+black small disk:	010705d1dd
+black big disk:		17004ad201
+black sticky:		1500bc37a5

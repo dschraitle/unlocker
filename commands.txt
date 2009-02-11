@@ -1,0 +1,16 @@
+list
+	list all users and their tag name
+add [name][tag name]
+	adds someone to the list
+remove [name]
+	removes someone from list
+edit [name][new tag name]
+	changes the tag of the given person
+disable
+	disables the reader
+enable
+	enables the reader
+unlock
+	unlocks the door
+lock
+	locks the door
