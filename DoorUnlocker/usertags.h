@@ -19,6 +19,7 @@ public:
 	string getuser(string tag);
 	string getuser(int tag);
 	string getnote(string user);
+	void setnote(string user, string note);
 	user getwholeuser(string name);
 	user getwholeuserfromtag(string tag);
 	user getwholeuser(int user);

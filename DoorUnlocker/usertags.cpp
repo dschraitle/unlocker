@@ -106,6 +106,13 @@ string usertags::getnote(string user)
 	return user;
 }
 
+void usertags::setnote(string user, string note)
+{
+	for(int i = 0; i < (int)users.size(); i++)
+		if(users[i].getname() == user)
+			 users[i].setnote(note);
+}
+
 user usertags::getwholeuser(string name)
 {
 	for(int i = 0; i < (int)users.size(); i++)
