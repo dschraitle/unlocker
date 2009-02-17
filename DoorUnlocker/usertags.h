@@ -10,8 +10,7 @@ class usertags
 public:
 	usertags(void);
 	~usertags(void);
-	void adduser(string user, string tag);
-	void adduser(string user, string tag, string note);
+	void adduser(string user, string tag, string note = "");
 	void importfile(char* filename);
 	void exportfile();
 	string gettag(string user);

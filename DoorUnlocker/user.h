@@ -7,8 +7,7 @@ class user
 {
 public:
 	user(void);
-	user(string nm, string tg);
-	user(string nm, string tg, string note);
+	user(string nm, string tg, string note = "");
 	~user(void);
 	string getname();
 	string gettag();

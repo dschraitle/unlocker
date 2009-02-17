@@ -16,12 +16,7 @@ usertags::usertags(void)
 usertags::~usertags(void)
 {
 }
-void usertags::adduser(string newuser, string tag)
-{
-	users.push_back(user(newuser,tag));
-	if(!importing)
-		exportfile();
-}
+
 void usertags::adduser(string newuser, string tag, string note)
 {
 	users.push_back(user(newuser,tag,note));
@@ -45,7 +40,6 @@ void usertags::importfile(char* filename)
 			adduser(name,tag,note);
 		}
 		infile.close();
-		importing = false;
 	}
 	else
 	{
@@ -54,6 +48,7 @@ void usertags::importfile(char* filename)
 		ofile.open(filename);
 		ofile.close();
 	}
+	importing = false;
 }
 
 void usertags::exportfile()

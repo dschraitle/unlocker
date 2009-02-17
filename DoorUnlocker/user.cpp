@@ -8,13 +8,7 @@ user::user(void)
 {
 }
 
-user::user(string nm, string tg)
-{
-	name = nm;
-	tag = tg;
-}
-
-user::user(string nm, string tg, string note = "")
+user::user(string nm, string tg, string note)
 {
 	name = nm;
 	tag = tg;
